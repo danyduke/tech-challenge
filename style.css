@@ -41,17 +41,18 @@ nav li a {
 
 .banner {
   background-image: url("image_tech_challenge/chateau.jpeg");
-  height: 400px;
-  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
   background-position: center;
 }
 
-.banner h1 {
+.banner-h1 {
   display: flex;
   justify-content: center;
   color: aliceblue;
 }
 
+/* */
 .container {
   display: flex;
   justify-content: center;
