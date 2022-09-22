@@ -1,106 +1,118 @@
-nav {
-    background-color: 
-    #050d20;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   
+/* CSS Header */
+.logo {
+  width: 75px;
+  height: 75px;
+  background-image: url("image_tech_challenge/logo.png");
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  background-color: #050d20;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
 }
 
 nav ul {
-    display: flex;
-    list-style-type: none;
-  }
+  display: flex;
+  list-style-type: none;
+}
 
-  nav li a {
-    color: white;
-    text-decoration: none;
-    padding: 2rem;
-  }
-  
-  .contact {
-    background-color:#c84ee5 ;
-    border-radius: 20px;
-    font-weight: bold;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 2rem;
+}
 
-  header {
-    background-image: url("image_tech_challenge/chateau.jpeg");
-    height: 400px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+.contact {
+  background-color: #c84ee5;
+  border-radius: 20px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 8px;
+}
 
+/* CSS banner */
 
-  header h1 {
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
-  }
+.banner {
+  background-image: url("image_tech_challenge/chateau.jpeg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-  .container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  
-  .card {
-    margin: 10px;
-    width: 300px;
-    height: 450px;
-  }
-  
-  .card-image {
-    height: 380px;
-    margin-bottom: 10px;
-    background-size: cover;
-  }
-  
-  .king-img {
-    background-image: url("image_tech_challenge/duck_crown.png");
-    background-color: #050d20;
-    background-position: center;
-  }
-  
-  .queen-img {
-    background-image: url("image_tech_challenge/daisy.jpeg");
-    background-color: #050d20;
-  }
-  
-  .princess-img {
-    background-image: url("image_tech_challenge/Caneton.jpeg");
-    background-color: #050d20;
-    background-position: center;
-  }
-  
-  .card h3 {
-    display: flex;
-    justify-content: center;
-  }
+.banner h1 {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
 
-  .table-assets {
-    border-collapse: collapse;
-    min-width: 400px;
-    width: auto;
-    box-shadow: 0 5px 50px hwb(266 1% 52%);
-    margin: 20px auto;
-    border: 2px solid #050d20;
-  }
-  
-  thead tr {
-    background-color: #050d20;
-    color: white;
-  }
-  
-  th,
-  td {
-    padding: 15px;
-  }
-  
-  tbody tr,
-  td,
-  th {
-    border: 1px solid rgb(100, 35, 160);
-  }
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  width: 300px;
+  height: 450px;
+}
+
+.card-image {
+  height: 380px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.king-img {
+  background-image: url("image_tech_challenge/duck_crown.png");
+  background-color: #050d20;
+  background-position: center;
+}
+
+.queen-img {
+  background-image: url("image_tech_challenge/daisy.jpeg");
+  background-color: #050d20;
+}
+
+.princess-img {
+  background-image: url("image_tech_challenge/Caneton.jpeg");
+  background-color: #050d20;
+  background-position: center;
+}
+
+.card h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.table-assets {
+  border-collapse: collapse;
+  min-width: 400px;
+  width: auto;
+  box-shadow: 0 5px 50px hwb(266 1% 52%);
+  margin: 20px auto;
+  border: 2px solid #050d20;
+}
+
+thead tr {
+  background-color: #050d20;
+  color: white;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+tbody tr,
+td,
+th {
+  border: 1px solid rgb(100, 35, 160);
+}
